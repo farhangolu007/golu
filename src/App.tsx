@@ -57,7 +57,7 @@ function App() {
             className="w-full animated-button bg-gradient-to-r from-blue-500 via-cyan-500 to-blue-500 hover:from-blue-600 hover:via-cyan-600 hover:to-blue-600 text-white text-xl p-8 rounded-xl shadow-xl transform hover:scale-105 transition-all duration-300"
             onClick={handleTelegram1}
           >
-            <Send className="mr-3 h-8 w-8 animate-pulse" />
+            <Send className="mr-3 h-16 md:h-8 w-8 animate-pulse" />
             Join Cricket Prediction Telegram Channel #1
           </Button>
 
@@ -67,7 +67,7 @@ function App() {
             className="w-full animated-button bg-gradient-to-r from-purple-500 via-pink-500 to-purple-500 hover:from-purple-600 hover:via-pink-600 hover:to-purple-600 text-white text-xl p-8 rounded-xl shadow-xl transform hover:scale-105 transition-all duration-300"
             onClick={handleTelegram2}
           >
-            <Send className="mr-3 h-8 w-8 animate-pulse" />
+            <Send className="mr-3 h-16 md:h-8 w-8 animate-pulse" />
             Join Toss Prediction Telegram Channel #2
           </Button>
 
